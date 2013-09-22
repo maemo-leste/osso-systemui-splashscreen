@@ -1,0 +1,12 @@
+Source: osso-systemui-splashscreen-dev
+Section: devel
+Priority: extra
+Maintainer: Pali Rohár <pali.rohar@gmail.com>
+Build-Depends: debhelper (>= 5)
+Standards-Version: 3.7.2
+
+Package: osso-systemui-splashscreen-dev
+Architecture: any
+Depends: ${misc:Depends}
+Description: System UI splashscreen plugin development headers
+ Development headers for System UI splashscreen plugin.
