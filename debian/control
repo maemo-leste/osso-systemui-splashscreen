@@ -6,7 +6,7 @@ Build-Depends: debhelper (>= 5)
 Standards-Version: 3.7.2
 
 Package: osso-systemui-splashscreen-dev
-Architecture: any
+Architecture: all
 Depends: ${misc:Depends}
 Description: System UI splashscreen plugin development headers
  Development headers for System UI splashscreen plugin.
