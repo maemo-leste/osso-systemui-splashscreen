@@ -2,8 +2,8 @@ Source: osso-systemui-splashscreen-dev
 Section: devel
 Priority: extra
 Maintainer: Pali Rohár <pali.rohar@gmail.com>
-Build-Depends: debhelper (>= 5)
-Standards-Version: 3.7.2
+Build-Depends: debhelper (>= 10)
+Standards-Version: 4.3.0
 
 Package: osso-systemui-splashscreen-dev
 Architecture: all
