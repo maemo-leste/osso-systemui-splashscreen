@@ -1,3 +1,11 @@
+osso-systemui-splashscreen-dev (0.2.32) unstable; urgency=medium
+
+  * Update debian compat level to 10
+  * Migrate to dh build sequencer
+  * Add multi-arch support
+
+ -- Arthur Demchenkov <spinal.by@gmail.com>  Wed, 25 Mar 2020 11:15:29 +0300
+
 osso-systemui-splashscreen-dev (0.2.31) unstable; urgency=medium
 
   * enable git builds
