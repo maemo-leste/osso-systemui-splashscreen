@@ -7,6 +7,7 @@ Standards-Version: 4.3.0
 
 Package: osso-systemui-splashscreen-dev
 Architecture: all
+Multi-arch: foreign
 Depends: ${misc:Depends}
 Description: System UI splashscreen plugin development headers
  Development headers for System UI splashscreen plugin.
