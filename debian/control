@@ -1,9 +1,18 @@
-Source: osso-systemui-splashscreen-dev
+Source: osso-systemui-splashscreen
 Section: devel
 Priority: extra
-Maintainer: Pali Rohár <pali.rohar@gmail.com>
-Build-Depends: debhelper (>= 5)
-Standards-Version: 3.7.2
+Maintainer: Ivaylo Dimitrov <ivo.g.dimitrov.75@gmail.com>
+Build-Depends: debhelper (>= 10), pkg-config, libgtk2.0-dev, libgconf2-dev,
+ libdbus-1-dev, libglib2.0-dev, osso-systemui-dev (>= 0.2.0.21), libx11-dev,
+ osso-systemui-dbus-dev, libdsme0.2.0-dev, libdbus-glib-1-dev, libcanberra-dev
+Standards-Version: 4.3.0
+
+Package: osso-systemui-splashscreen
+Architecture: any
+Multi-arch: same
+Depends: ${shlibs:Depends}, ${misc:Depends}, osso-systemui
+Description: System UI splashscreen plugin
+ System UI splashscreen plugin.
 
 Package: osso-systemui-splashscreen-dev
 Architecture: all
